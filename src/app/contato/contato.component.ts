@@ -38,4 +38,9 @@ export class ContatoComponent implements OnInit {
       
   }
 
+  enviarFormulario() {
+    alert("A mensagem foi enviada");
+    this.formContato.reset();
+  }
+
 }
